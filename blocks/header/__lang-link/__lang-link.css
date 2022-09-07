@@ -1,0 +1,29 @@
+.header__lang-link {
+  display: inline-block;
+  margin: 18px 18px 6px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.header__lang-link:last-of-type {
+  text-decoration: none;
+  margin-right: 0px;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    margin: 14px 18px 8px 0;
+    /*если смотреть по макету, то нижний 8px, но тогда текст становится выше текста на картинке, а на макете они на равных*/
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
