@@ -1,7 +1,9 @@
 .footer__link-item {
-  margin-right: 18px;
+  margin-top: 32px;
 }
 
-.footer__link-item:last-child {
-  margin-right: 0;
+@media (min-width: 768px) {
+  .footer__link-item {
+    margin: 0;
+  }
 }
