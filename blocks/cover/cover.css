@@ -6,10 +6,6 @@
   background-position: center;
 }
 
-.cover:hover {
-  opacity: .3;
-}
-
 @media (min-width: 768px) {
   .cover {
     margin: 90px auto 0;

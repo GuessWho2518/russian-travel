@@ -4,16 +4,6 @@
   flex-direction: column;
 }
 
-
-.intro__list {
-  padding: 0;
-  margin: 34px 0 0;
-  list-style-type: none;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 150%;
-}
-
 @media (min-width: 768px) {
   .intro {
     margin: 88px 24px 0;
