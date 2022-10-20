@@ -11,5 +11,5 @@
 4. Язык разметки HTML
 5. Каскадная таблица стилей CSS 
 
-Ссылка на проект: https://dacorm.github.io/russian-travel/
+Ссылка на проект: https://guesswho2518.github.io/russian-travel/
 Автор Aleksey Bogdanov
