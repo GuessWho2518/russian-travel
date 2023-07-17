@@ -1,0 +1,30 @@
+.place {
+  margin-top: 50px;
+  display: grid;
+  gap: 32px;
+}
+
+.place:first-of-type {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .place {
+    margin-top: 73px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    margin-top: 80px;
+    gap: 48px 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place {
+    gap: 40px 48px;
+  }
+}

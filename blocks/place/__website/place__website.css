@@ -1,0 +1,12 @@
+.place__website {
+  text-align: start;
+  margin-left: 16px;
+  max-width: 288px;
+}
+
+@media (min-width: 768px) {
+  .place__website {
+    margin: 0;
+    align-self: flex-end;
+  }
+}

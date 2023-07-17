@@ -1,0 +1,21 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  aspect-ratio: 16/10;
+  background-color: rgba(42, 44, 47, .3);
+  color: #ffffff;
+  gap: 16px;
+}
+
+.cover__link:hover {
+  transition: .6s;
+  background-color: rgba(42, 44, 47, .8);
+}
+
+@media (min-width: 768px) {
+  .cover__link {
+    gap: 32px;
+  }
+}
