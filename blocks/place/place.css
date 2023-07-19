@@ -13,6 +13,7 @@
     margin-top: 73px;
     grid-template-columns: repeat(2, 1fr);
     gap: 48px 28px;
+    grid-template-columns: 340px 1fr;
   }
 }
 
@@ -20,11 +21,13 @@
   .place {
     margin-top: 80px;
     gap: 48px 32px;
+    grid-template-columns: 440px 1fr;
   }
 }
 
 @media (min-width: 1280px) {
   .place {
-    gap: 40px 48px;
+    grid-template-columns: 460px 1fr;
+    gap: 48px 40px;
   }
 }

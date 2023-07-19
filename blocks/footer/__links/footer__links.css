@@ -4,14 +4,12 @@
   gap: 32px;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 @media (min-width: 768px) {
   .footer__links {
-    min-width: 500px;
-    padding: 0;
+    max-width: 500px;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 18px;
   }
 }

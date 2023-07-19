@@ -8,7 +8,7 @@
 
 @media (min-width: 768px) {
   .place__title {
-    min-width: 330px;
+    max-width: 330px;
     margin: 0;
     font-size: 2.625em;
     line-height: 110%;
@@ -17,7 +17,7 @@
 
 @media (min-width: 1024px) {
   .place__title {
-    min-width: 440px;
+    max-width: 440px;
     font-size: 4.5em;
     line-height: 106%;
   }
@@ -25,6 +25,6 @@
 
 @media (min-width: 1280px) {
   .place__title {
-    min-width: 460px;
+    max-width: 460px;
   }
 }

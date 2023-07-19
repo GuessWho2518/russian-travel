@@ -4,14 +4,14 @@
   justify-content: center;
   text-decoration: none;
   aspect-ratio: 16/10;
-  background-color: rgba(42, 44, 47, .3);
+  background-color: rgba(42, 44, 47, 0.3);
   color: #ffffff;
   gap: 16px;
 }
 
 .cover__link:hover {
-  transition: .6s;
-  background-color: rgba(42, 44, 47, .8);
+  transition: 0.6s;
+  background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media (min-width: 768px) {
