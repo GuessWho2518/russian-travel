@@ -6,7 +6,7 @@
 
 @media (min-width: 768px) {
   .footer {
-    margin-top: 88px;
+    margin: 88px 24px 24px;
     flex-direction: row;
     justify-content: space-between;
   }
